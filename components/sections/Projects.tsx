@@ -8,16 +8,6 @@ import { Button } from "../ui/button";
 import { Check, ExternalLink, Github } from "lucide-react";
 import { Badge } from "../ui/badge";
 
-interface Project {
-  title: string;
-  description: string;
-  image: string;
-  liveUrl: string;
-  githubUrl: string;
-  technologies: string[];
-  features: string[];
-}
-
 const Projects: FC = () => {
   return (
     <section id="projects" className="container mx-auto px-4 py-20">

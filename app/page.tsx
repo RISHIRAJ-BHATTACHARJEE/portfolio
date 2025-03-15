@@ -1,7 +1,7 @@
 "use client";
 
 import { FC } from "react";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 
 import GithubStats from "@/components/GithubStats";
 import Contact from "@/components/sections/Contact";
@@ -9,11 +9,6 @@ import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
 import Testimonials from "@/components/sections/Testimonials";
-
-const fadeInUp: Variants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 },
-};
 
 const Home: FC = () => {
   return (
