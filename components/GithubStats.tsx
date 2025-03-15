@@ -186,7 +186,7 @@ const GithubStats = ({ username }: Props) => {
                         />
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p className="text-xs font-semibold text-black">
+                        <p className="text-xs font-semibold text-white">
                           {day.count} contributions on{" "}
                           {new Date(day.date).toLocaleDateString(undefined, {
                             month: "short",

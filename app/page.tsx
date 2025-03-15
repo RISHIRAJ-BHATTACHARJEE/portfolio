@@ -27,7 +27,7 @@ const Home: FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <GithubStats username="Aestheticsuraj234" />
+          <GithubStats username="RISHIRAJ-BHATTACHARJEE" />
         </motion.div>
       </section>
 

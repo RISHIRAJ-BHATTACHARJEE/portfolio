@@ -36,18 +36,29 @@ export async function GET(request: NextRequest) {
         }
       `;
 
-    const response = await octokit.graphql(query, { username });
-    //   @ts-expect-error
+    interface GithubResponse {
+      user: {
+      contributionsCollection: {
+        contributionCalendar: {
+        totalContributions: number;
+        weeks: Array<{
+          contributionDays: Array<{
+          contributionCount: number;
+          date: string;
+          }>;
+        }>;
+        };
+      };
+      };
+    }
+
+    const response = await octokit.graphql<GithubResponse>(query, { username });
     const calendar = response.user.contributionsCollection.contributionCalendar;
 
-    //   Flatten the weeks array to get all contribution days
-
-    // @ts-expect-error
     const contributions = calendar.weeks.flatMap((week) =>
-      // @ts-expect-error
       week.contributionDays.map((day) => ({
-        count: day.contributionCount,
-        date: day.date,
+      count: day.contributionCount,
+      date: day.date,
       }))
     );
 
