@@ -65,16 +65,16 @@ export const technologies = [
   },
   {
     name: "Redis",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/redis/redis-original.svg"
+    logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/redis/redis-original.svg",
   },
   {
     name: "Postman",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original.svg"
+    logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/postman/postman-original.svg",
   },
   {
     name: "Express",
-    logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/express/express-original.svg"
-  }
+    logo: "https://raw.githubusercontent.com/devicons/devicon/6910f0503efdd315c8f9b858234310c06e04d9c0/icons/express/express-original.svg",
+  },
 ];
 
 export const testimonials = [
@@ -106,8 +106,7 @@ export const projects = [
     title: "E - Commerce Platform",
     description:
       "A full featured e commerce platform with real time inventory management, secure payments, and an intuitive admin dashboard.",
-    image:
-      "/e-com.png",
+    image: "/e-com.png",
     technologies: [
       "Node.js",
       "JavaScript",
@@ -125,16 +124,23 @@ export const projects = [
       "Optimized caching with Redis",
       "Cloud storage for images (Cloudinary)",
       "Payment gateway integration (Stripe)",
-      "Modern frontend with React & TailwindCSS"
+      "Modern frontend with React & TailwindCSS",
     ],
   },
   {
     title: "Jira Clone",
     description:
       "A project management tool built with Next.js 14, Appwrite SDK, and Hono.js, featuring tasks, Kanban, calendar, user roles, authentication, invites, analytics, and a responsive design with Shadcn UI & TailwindCSS.",
-    image:
-      "/jira.png",
-    technologies: ["Next.js", "TypeScript", "TailwindCSS", "Shadcn UI", "Hono.js", "Appwrite", "Vercel"],
+    image: "/jira.png",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Shadcn UI",
+      "Hono.js",
+      "Appwrite",
+      "Vercel",
+    ],
     liveUrl: "https://jira-clone-three-pearl.vercel.app/",
     githubUrl: "https://github.com/RISHIRAJ-BHATTACHARJEE/jira-clone",
     features: [
@@ -143,15 +149,31 @@ export const projects = [
       "Authentication & Security",
       "Advanced Search & Analytics",
       "Media & Storage Integration",
-      "Optimized Performance & UI"
+      "Optimized Performance & UI",
+    ],
+  },
+  {
+    title: "Social Book",
+    description:
+      "A frontend only UI application for a social media app built using pure HTML, CSS & JS ",
+    image: "/social-book.png",
+    technologies: [
+      "HTML 5",
+      "CSS3",
+      "Vanilla Javascript"
+    ],
+    liveUrl: "https://social-book-one.vercel.app/",
+    githubUrl: "https://github.com/RISHIRAJ-BHATTACHARJEE/socialbook",
+    features: [
+      "Responsive Web Design",
+      "Clean UI and smooth UX"
     ],
   },
   {
     title: "Notion Clone",
     description:
       "Built with the latest Next.js, TypeScript, React, Convex this project replicates Notion, a productivity and note-taking web application. It enables users to securely log in, write, publish, and organize notes.",
-    image:
-      "/notion.png",
+    image: "/notion.png",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -159,7 +181,7 @@ export const projects = [
       "Convex",
       "Edgestore",
       "Tailwind CSS",
-      "Shadcn"
+      "Shadcn",
     ],
     liveUrl: "https://notion-clone-lime-one.vercel.app/",
     githubUrl: "https://github.com/RISHIRAJ-BHATTACHARJEE/notion-clone",
@@ -169,22 +191,21 @@ export const projects = [
       "Dark/Light Mode & Responsive Design",
       "Authentication & Security",
       "File Management & Recovery",
-      "Publish Online"
+      "Publish Online",
     ],
   },
   {
     title: "Zoom Clone",
     description:
       "This project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
-    image:
-      "/zoom.png",
+    image: "/zoom.png",
     technologies: [
       "Next.js",
       "TypeScript",
       "Clerk",
       "getstream",
       "Tailwind CSS",
-      "Shadcn"
+      "Shadcn",
     ],
     liveUrl: "https://voom-six.vercel.app/",
     githubUrl: "https://github.com/RISHIRAJ-BHATTACHARJEE/voom",
@@ -195,7 +216,7 @@ export const projects = [
       "Personal Room & Quick Join",
       "Real-time Secure Communication",
       "Comprehensive Meeting Controls",
-      "Responsive & Scalable Design"
+      "Responsive & Scalable Design",
     ],
   },
 ];

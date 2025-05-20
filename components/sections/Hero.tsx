@@ -36,7 +36,7 @@ const Hero: FC = () => {
             />
           </div>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8">
-            Full Stack Developer crafting modern web experiences
+            A Full Stack Developer crafting modern web experiences
           </p>
           <div className="flex gap-4">
             <Link href={getGmailComposeURL("rishirajbhattacharjee974@gmail.com")} target="_blank">
